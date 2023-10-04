@@ -1,0 +1,5 @@
+/uploads/*
+/outputs/*
+
+/model/faster_rcnn_resnet50_v1_640x640_1.tar.gz
+/model/faster_rcnn_resnet50_v1_640x640_1
