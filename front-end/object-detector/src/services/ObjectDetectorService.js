@@ -1,5 +1,5 @@
-const API_URL = '127.0.0.1';
-const API_PORT = '8002';
+const API_URL = process.env.REACT_APP_API_URL;
+const API_PORT = process.env.REACT_APP_API_PORT;
 
 export function uploadfile (file) {
     // upload image file via a POST request "http://${API_URL}:${API_PORT}/uploadfile/"
